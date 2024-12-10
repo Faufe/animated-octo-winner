@@ -1428,3 +1428,7 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 19:27:23.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Husk
 [10Dec2024 19:27:27.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 696.500000, 96.500000, 12.500000]
 [10Dec2024 19:34:10.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
+[10Dec2024 19:34:36.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 19:35:21.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 19:35:21.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 19:43:31.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Isn't It Iron Pick]

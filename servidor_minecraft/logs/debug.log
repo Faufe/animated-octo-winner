@@ -10956,3 +10956,11 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 19:29:37.388] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Dec2024 19:29:37.402] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10Dec2024 19:34:10.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
+[10Dec2024 19:34:36.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 19:34:37.466] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 19:34:37.491] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 19:35:21.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 19:35:21.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 19:39:37.369] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 19:39:37.383] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 19:43:31.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Isn't It Iron Pick]
