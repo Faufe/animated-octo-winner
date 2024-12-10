@@ -1366,3 +1366,9 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 18:16:32.857] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:49153] logged in with entity id 7025 at (179.60254220873938, 64.0, 162.9328912207988)
 [10Dec2024 18:16:32.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
 [10Dec2024 18:16:32.906] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 18:35:27.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 18:35:27.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 18:40:23.872] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[10Dec2024 18:40:23.902] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:55891] logged in with entity id 12850 at (261.30000001192093, 64.0, 190.78331399723032)
+[10Dec2024 18:40:23.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 18:40:23.948] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
