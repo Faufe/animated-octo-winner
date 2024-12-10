@@ -11011,3 +11011,18 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 21:02:12.236] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/42225, l='ServerLevel[world]', x=-426.39, y=69.03, z=-399.30] died, message: 'Nitwit was slain by Zombie'
 [10Dec2024 21:04:37.388] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Dec2024 21:04:37.403] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:05:12.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Cobweb Entanglement]
+[10Dec2024 21:06:50.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Spectator Mode]
+[10Dec2024 21:07:05.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
+[10Dec2024 21:09:25.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [The Lighthouse]
+[10Dec2024 21:09:37.370] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:09:37.384] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:11:44.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
+[10Dec2024 21:13:56.080] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/47667, l='ServerLevel[world]', x=88.50, y=72.00, z=267.50]
+[10Dec2024 21:14:37.371] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:14:37.385] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:15:36.729] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/48129, l='ServerLevel[world]', x=72.50, y=70.00, z=289.50]
+[10Dec2024 21:19:37.364] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:19:37.377] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:24:37.366] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:24:37.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

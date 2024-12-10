@@ -82,6 +82,7 @@
       "minecraft:taiga": "2024-12-10 18:59:27 +0000",
       "minecraft:beach": "2024-12-10 20:26:17 +0000",
       "minecraft:river": "2024-12-10 17:50:44 +0000",
+      "minecraft:cold_ocean": "2024-12-10 21:14:33 +0000",
       "minecraft:forest": "2024-12-10 17:53:56 +0000",
       "minecraft:plains": "2024-12-10 17:20:05 +0000"
     },
@@ -152,6 +153,12 @@
     },
     "done": true
   },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-12-10 21:05:12 +0000"
+    },
+    "done": false
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2024-12-10 19:12:42 +0000"
@@ -191,6 +198,12 @@
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-12-10 20:27:10 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_lighthouse": {
+    "criteria": {
+      "location0": "2024-12-10 21:09:25 +0000"
     },
     "done": true
   },
@@ -253,6 +266,12 @@
   "farmersdelight:main/eat_comfort_food": {
     "criteria": {
       "comfort": "2024-12-10 19:15:09 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-12-10 21:05:12 +0000"
     },
     "done": true
   },
