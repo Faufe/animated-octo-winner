@@ -10943,3 +10943,16 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 19:19:37.411] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10Dec2024 19:19:57.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
 [10Dec2024 19:20:43.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 19:24:37.387] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 19:24:37.401] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 19:25:16.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Suit Up]
+[10Dec2024 19:25:45.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Stone Age]
+[10Dec2024 19:27:11.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Husk
+[10Dec2024 19:27:15.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 696.500000, 96.500000, 12.500000]
+[10Dec2024 19:27:15.744] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player gordotrolito22 just tried to change non-editable sign
+[10Dec2024 19:27:18.048] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player gordotrolito22 just tried to change non-editable sign
+[10Dec2024 19:27:23.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Husk
+[10Dec2024 19:27:27.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 696.500000, 96.500000, 12.500000]
+[10Dec2024 19:29:37.388] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 19:29:37.402] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 19:34:10.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
