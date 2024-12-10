@@ -23,6 +23,18 @@
     },
     "done": false
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-12-10 22:13:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-10 22:12:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-12-10 22:00:08 +0000"
@@ -31,6 +43,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-12-10 22:24:23 +0000",
       "minecraft:spider": "2024-12-10 22:00:22 +0000",
       "minecraft:zombie": "2024-12-10 22:00:08 +0000"
     },
@@ -52,6 +65,8 @@
     "criteria": {
       "minecraft:beach": "2024-12-10 22:01:06 +0000",
       "minecraft:river": "2024-12-10 22:00:40 +0000",
+      "minecraft:cold_ocean": "2024-12-10 22:19:28 +0000",
+      "minecraft:forest": "2024-12-10 22:19:12 +0000",
       "minecraft:plains": "2024-12-10 21:55:22 +0000"
     },
     "done": false
@@ -76,6 +91,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2024-12-10 22:13:26 +0000",
       "bread": "2024-12-10 22:01:27 +0000"
     },
     "done": false
@@ -85,6 +101,12 @@
       "log_spam_fixer": "2024-12-10 21:55:22 +0000"
     },
     "done": false
+  },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2024-12-10 22:06:40 +0000"
+    },
+    "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
@@ -155,6 +177,12 @@
   "incendium:technical/new_player": {
     "criteria": {
       "requirement": "2024-12-10 21:55:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-12-10 22:19:33 +0000"
     },
     "done": true
   },
