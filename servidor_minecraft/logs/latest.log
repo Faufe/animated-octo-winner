@@ -1372,3 +1372,50 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 18:40:23.902] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:55891] logged in with entity id 12850 at (261.30000001192093, 64.0, 190.78331399723032)
 [10Dec2024 18:40:23.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
 [10Dec2024 18:40:23.948] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 18:44:55.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Sweet Dreams]
+[10Dec2024 18:46:01.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Faufe> ./skin set mojang Veguetta777
+[10Dec2024 18:46:41.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [gordotrolito22: Skin changed]
+[10Dec2024 18:47:22.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Acquire Hardware]
+[10Dec2024 18:51:09.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Voluntary Exile]
+[10Dec2024 18:51:11.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Clad to See You]
+[10Dec2024 18:52:38.126] [pool-6-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / ctov:medium/village_taiga], ResourceKey[minecraft:worldgen/structure / ctov:small/village_mountain_alpine], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_mushroom], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_swamp], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_mountain_alpine], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_giant_taiga], ResourceKey[minecraft:worldgen/structure / ctov:large/village_dark_forest], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak]] from pos BlockPos{x=629, y=74, z=117}
+[10Dec2024 18:52:40.889] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2463ms or 49 ticks behind
+[10Dec2024 18:52:44.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Faufe moved too quickly! 9.950005252152437,0.7518640014090607,2.302751797318905
+[10Dec2024 18:56:03.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Who You Gonna Call?]
+[10Dec2024 18:56:42.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Ghost
+[10Dec2024 18:56:47.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 529.500000, 80.500000, 109.500000]
+[10Dec2024 18:56:55.390] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 18:56:55.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 18:56:55.456] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Dec2024 18:58:06.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Ghost
+[10Dec2024 18:58:11.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 556.500000, 80.500000, 89.500000]
+[10Dec2024 18:58:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
+[10Dec2024 18:59:59.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
+[10Dec2024 19:02:56.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [This Must be a Sign!]
+[10Dec2024 19:05:41.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:42991] logged in with entity id 18909 at (480.4316371661975, 68.0, 197.94743676508642)
+[10Dec2024 19:05:41.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 19:05:41.978] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 19:06:31.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 19:07:03.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Crops of the Wild]
+[10Dec2024 19:08:20.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Getting an Upgrade]
+[10Dec2024 19:08:57.341] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Timed out
+[10Dec2024 19:08:57.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 19:09:12.256] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:42567] logged in with entity id 20956 at (817.1913191929467, 64.0, 181.36434015898286)
+[10Dec2024 19:09:12.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 19:09:12.296] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 19:12:42.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Suit Up]
+[10Dec2024 19:13:15.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Monster Hunter]
+[10Dec2024 19:14:07.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 was shot by Skeleton
+[10Dec2024 19:15:49.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 19:17:02.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 was slain by Husk
+[10Dec2024 19:17:05.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Husk
+[10Dec2024 19:17:28.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 690.500000, 97.500000, 10.500000]
+[10Dec2024 19:17:36.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Husk
+[10Dec2024 19:17:36.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 moved too quickly! 9.698036216644084,0.2712241076924897,3.489981816932186
+[10Dec2024 19:17:42.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 695.500000, 92.500000, 14.500000]
+[10Dec2024 19:17:51.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 moved too quickly! 9.643668466416614,1.6319031399820005,-2.8664653480613254
+[10Dec2024 19:19:12.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was doomed to fall by Skeleton
+[10Dec2024 19:19:17.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 697.500000, 78.500000, 30.500000]
+[10Dec2024 19:19:20.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 was slain by Ghost
+[10Dec2024 19:19:57.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 246.500000, 64.500000, 139.500000]
+[10Dec2024 19:20:43.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
