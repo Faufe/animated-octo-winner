@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "immersive_weathering:immersive_weathering/flower_crown": {
+    "criteria": {
+      "wheat": "2024-12-10 17:28:47 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/using/shield": {
     "criteria": {
       "log_spam_fixer": "2024-12-10 17:20:05 +0000"

@@ -3953,3 +3953,4 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [10Dec2024 17:26:30.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe drowned
 [10Dec2024 17:26:43.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Faufe a server operator
 [10Dec2024 17:27:01.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
+[10Dec2024 17:28:47.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Flower Power]
