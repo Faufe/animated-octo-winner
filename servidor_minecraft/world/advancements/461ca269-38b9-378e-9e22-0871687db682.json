@@ -80,6 +80,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-12-10 18:59:27 +0000",
+      "minecraft:beach": "2024-12-10 20:26:17 +0000",
       "minecraft:river": "2024-12-10 17:50:44 +0000",
       "minecraft:forest": "2024-12-10 17:53:56 +0000",
       "minecraft:plains": "2024-12-10 17:20:05 +0000"
@@ -175,9 +176,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-10 20:30:45 +0000"
+    },
+    "done": true
+  },
   "biomemakeover:biomemakeover/cladding_template": {
     "criteria": {
       "get_disc": "2024-12-10 18:51:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-10 20:27:10 +0000"
     },
     "done": true
   },
@@ -214,6 +227,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-10 20:34:55 +0000",
       "cooked_mutton": "2024-12-10 18:04:18 +0000",
       "sweet_berries": "2024-12-10 19:02:58 +0000",
       "cooked_beef": "2024-12-10 18:20:36 +0000",
@@ -264,6 +278,12 @@
   "biomemakeover:biomemakeover/create_peat_farmland": {
     "criteria": {
       "create_peat": "2024-12-10 19:59:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-10 20:44:01 +0000"
     },
     "done": true
   },

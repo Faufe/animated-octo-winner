@@ -10986,3 +10986,15 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 20:19:37.381] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10Dec2024 20:24:37.367] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Dec2024 20:24:37.383] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 20:27:10.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Not Today, Thank You]
+[10Dec2024 20:29:37.366] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 20:29:37.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 20:30:45.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Best Friends Forever]
+[10Dec2024 20:34:37.368] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 20:34:37.385] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 20:36:31.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to -243.500000, 66.500000, 128.500000]
+[10Dec2024 20:39:37.368] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 20:39:37.384] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 20:44:01.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Take Aim]
+[10Dec2024 20:44:37.363] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 20:44:37.377] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
