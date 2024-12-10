@@ -1435,3 +1435,4 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 19:45:20.031] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/30524, l='ServerLevel[world]', x=90.50, y=72.00, z=268.50]
 [10Dec2024 19:59:31.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Faster Farmland]
 [10Dec2024 20:02:27.529] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/33270, l='ServerLevel[world]', x=89.50, y=72.00, z=267.50]
+[10Dec2024 20:04:55.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [A Seedy Place]
