@@ -79,6 +79,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2024-12-10 17:50:44 +0000",
+      "minecraft:forest": "2024-12-10 17:53:56 +0000",
       "minecraft:plains": "2024-12-10 17:20:05 +0000"
     },
     "done": false
@@ -140,6 +142,42 @@
   "immersive_weathering:immersive_weathering/flower_crown": {
     "criteria": {
       "wheat": "2024-12-10 17:28:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-10 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "golden_knife": "2024-12-10 17:51:12 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/dirts": {
+    "criteria": {
+      "grass": "2024-12-10 17:50:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "mutton": "2024-12-10 17:55:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-10 17:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-10 17:51:09 +0000"
     },
     "done": true
   },
