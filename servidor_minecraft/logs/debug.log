@@ -11031,3 +11031,7 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 21:29:37.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10Dec2024 21:34:37.370] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Dec2024 21:34:37.383] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:39:37.365] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:39:37.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 21:44:37.365] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 21:44:37.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
