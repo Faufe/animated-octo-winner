@@ -11321,3 +11321,43 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 22:23:53.579] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/75607, l='ServerLevel[world]', x=-7.50, y=73.00, z=589.50]
 [10Dec2024 22:24:37.412] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10Dec2024 22:24:37.426] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:26:04.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [This Must be a Sign!]
+[10Dec2024 22:26:15.848] [pool-6-thread-4/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / ctov:medium/village_mountain], ResourceKey[minecraft:worldgen/structure / ctov:large/village_plains], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_plains_fortified], ResourceKey[minecraft:worldgen/structure / ctov:large/village_savanna_na], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_birch], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_bamboo], ResourceKey[minecraft:worldgen/structure / ctov:large/village_jungle], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_beach]] from pos BlockPos{x=59, y=67, z=1227}
+[10Dec2024 22:26:20.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2767ms or 55 ticks behind
+[10Dec2024 22:26:26.580] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Faufe moved too quickly! -9.860609607254736,-0.003016261509046103,3.073349202717054
+[10Dec2024 22:26:26.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pocholita moved too quickly! -9.671916849703042,-1.0,-2.8277482961434544
+[10Dec2024 22:28:14.912] [pool-6-thread-5/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_desert_oasis], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_desert], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_swedish], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_mushroom], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_taiga], ResourceKey[minecraft:worldgen/structure / ctov:large/village_desert]] from pos BlockPos{x=101, y=67, z=1573}
+[10Dec2024 22:29:40.137] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:29:40.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:29:41.629] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/78690, l='ServerLevel[world]', x=-41.50, y=71.00, z=1483.50]
+[10Dec2024 22:29:50.382] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/78754, l='ServerLevel[world]', x=-50.50, y=74.00, z=1492.50]
+[10Dec2024 22:31:10.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has completed the challenge [When the Stew is Sus]
+[10Dec2024 22:33:36.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [Isn't It Iron Pick]
+[10Dec2024 22:33:41.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [Diamonds!]
+[10Dec2024 22:34:40.141] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:34:40.155] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:37:20.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Diamonds!]
+[10Dec2024 22:37:44.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Mine Turtle!]
+[10Dec2024 22:39:40.148] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:39:40.160] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:40:59.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe tried to swim in lava
+[10Dec2024 22:41:34.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to -229.500000, -57.500000, 1359.500000]
+[10Dec2024 22:41:37.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe tried to swim in lava
+[10Dec2024 22:41:49.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to pocholita]
+[10Dec2024 22:43:21.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [Cover Me with Diamonds]
+[10Dec2024 22:44:39.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Cover Me with Diamonds]
+[10Dec2024 22:44:40.135] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:44:40.147] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:49:40.138] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:49:40.151] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:51:01.079] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/84451, l='ServerLevel[world]', x=-187.50, y=70.00, z=1647.50]
+[10Dec2024 22:51:40.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [Who You Gonna Call?]
+[10Dec2024 22:53:22.411] [pool-6-thread-6/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_badlands], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_mountains], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_ocean], ResourceKey[minecraft:worldgen/structure / ctov:small/village_mountain_alpine], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_savanna_na], ResourceKey[minecraft:worldgen/structure / ctov:small/village_beach], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_iberian]] from pos BlockPos{x=-603, y=71, z=1259}
+[10Dec2024 22:53:54.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to pocholita]
+[10Dec2024 22:54:00.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe burned to death
+[10Dec2024 22:54:06.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [The Lighthouse]
+[10Dec2024 22:54:07.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to -480.500000, 71.500000, 1291.500000]
+[10Dec2024 22:54:40.146] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Dec2024 22:54:40.163] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Dec2024 22:56:06.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe fell from a high place
+[10Dec2024 22:56:11.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to -504.500000, 64.500000, 1264.500000]

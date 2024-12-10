@@ -160,6 +160,12 @@
     },
     "done": false
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2024-12-10 22:44:39 +0000"
+    },
+    "done": true
+  },
   "betterdungeons:all_dungeons": {
     "criteria": {
       "in_better_spider_dungeon": "2024-12-10 21:05:12 +0000"
@@ -254,6 +260,7 @@
       "pumpkin_pie": "2024-12-10 19:50:19 +0000",
       "mutton": "2024-12-10 17:55:43 +0000",
       "bread": "2024-12-10 19:15:45 +0000",
+      "suspicious_stew": "2024-12-10 22:31:10 +0000",
       "mushroom_stew": "2024-12-10 19:15:09 +0000"
     },
     "done": false
@@ -264,9 +271,21 @@
     },
     "done": true
   },
+  "quark:mine_toretoise": {
+    "criteria": {
+      "mine_toretoise": "2024-12-10 22:37:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-12-10 17:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-10 22:37:20 +0000"
     },
     "done": true
   },
@@ -290,6 +309,12 @@
     },
     "done": false
   },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "green": "2024-12-10 22:29:15 +0000"
+    },
+    "done": false
+  },
   "farmersdelight:main/get_fd_seed": {
     "criteria": {
       "rice": "2024-12-10 19:07:03 +0000"
@@ -305,6 +330,12 @@
   "alexsmobs:alexsmobs/crocodile": {
     "criteria": {
       "killed_by": "2024-12-10 20:51:20 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:husbandry/sus_stew": {
+    "criteria": {
+      "stew": "2024-12-10 22:31:10 +0000"
     },
     "done": true
   },
