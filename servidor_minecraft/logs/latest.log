@@ -1347,3 +1347,22 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 17:51:09.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Ice Bucket Challenge]
 [10Dec2024 17:51:12.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Hunt and Gather]
 [10Dec2024 17:52:01.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Sweet Dreams]
+[10Dec2024 18:07:12.912] [ForkJoinPool.commonPool-worker-4/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[10Dec2024 18:07:12.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:53407] logged in with entity id 5249 at (5.5, 72.0, 1.5)
+[10Dec2024 18:07:12.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 18:07:13.009] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 18:07:13.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Ice and Fire]
+[10Dec2024 18:07:28.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 has made the advancement [Alex's Mobs]
+[10Dec2024 18:08:12.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported gordotrolito22 to Faufe]
+[10Dec2024 18:13:19.833] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 18:13:19.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 18:14:53.119] [ForkJoinPool.commonPool-worker-6/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[10Dec2024 18:14:53.157] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:34351] logged in with entity id 6701 at (179.60254220873938, 64.0, 162.9328912207988)
+[10Dec2024 18:14:53.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 18:14:53.208] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)
+[10Dec2024 18:15:24.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
+[10Dec2024 18:15:24.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
+[10Dec2024 18:16:32.800] [ForkJoinPool.commonPool-worker-7/WARN] [SkinRestorer/]: Failed to fetch skin: not found
+[10Dec2024 18:16:32.857] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gordotrolito22[/127.121.146.91:49153] logged in with entity id 7025 at (179.60254220873938, 64.0, 162.9328912207988)
+[10Dec2024 18:16:32.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 joined the game
+[10Dec2024 18:16:32.906] [Server thread/INFO] [Jade/]: Syncing config to gordotrolito22 (aa55ed02-9a11-3c51-82ef-c5a1dc3ece06)

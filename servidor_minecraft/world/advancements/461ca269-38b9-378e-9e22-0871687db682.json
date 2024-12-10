@@ -159,12 +159,14 @@
   },
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
-      "grass": "2024-12-10 17:50:22 +0000"
+      "grass": "2024-12-10 17:50:22 +0000",
+      "dirt": "2024-12-10 18:02:58 +0000"
     },
     "done": false
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2024-12-10 18:04:18 +0000",
       "mutton": "2024-12-10 17:55:43 +0000"
     },
     "done": false
