@@ -1432,3 +1432,4 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 19:35:21.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gordotrolito22 lost connection: Disconnected
 [10Dec2024 19:35:21.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gordotrolito22 left the game
 [10Dec2024 19:43:31.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Isn't It Iron Pick]
+[10Dec2024 19:45:20.031] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/30524, l='ServerLevel[world]', x=90.50, y=72.00, z=268.50]
