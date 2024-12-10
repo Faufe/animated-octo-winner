@@ -1443,3 +1443,5 @@ java.lang.ClassNotFoundException: com.mojang.authlib.yggdrasil.response.Response
 [10Dec2024 20:46:41.591] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/42193, l='ServerLevel[world]', x=-482.34, y=63.02, z=-424.37] died, message: 'Unemployed was slain by Crocodile'
 [10Dec2024 20:47:13.937] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/42234, l='ServerLevel[world]', x=-477.96, y=61.63, z=-427.59] died, message: 'Farmer was slain by Crocodile'
 [10Dec2024 20:51:20.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Chompy]
+[10Dec2024 20:55:50.283] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/42228, l='ServerLevel[world]', x=-452.17, y=63.10, z=-424.73] died, message: 'Farmer was slain by Crocodile'
+[10Dec2024 21:02:12.236] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/42225, l='ServerLevel[world]', x=-426.39, y=69.03, z=-399.30] died, message: 'Nitwit was slain by Zombie'
