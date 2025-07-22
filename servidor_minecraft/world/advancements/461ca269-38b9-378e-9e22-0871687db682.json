@@ -359,6 +359,7 @@
       "minecraft:pillager": "2025-07-21 08:25:17 +0000",
       "minecraft:skeleton": "2025-07-21 06:45:02 +0000",
       "minecraft:spider": "2025-07-21 06:45:05 +0000",
+      "minecraft:piglin_brute": "2025-07-22 04:37:37 +0000",
       "minecraft:creeper": "2025-07-21 07:10:51 +0000",
       "minecraft:slime": "2025-07-21 07:54:26 +0000",
       "caverns_and_chasms:peeper": "2025-07-21 07:27:16 +0000",
@@ -1746,9 +1747,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2025-07-22 02:08:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-07-22 04:36:36 +0000"
     },
     "done": true
   },
@@ -1773,6 +1786,12 @@
   "caverns_and_chasms:recipes/decorations/calcite_wall_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2025-07-22 03:45:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
     },
     "done": true
   },
@@ -1933,6 +1952,12 @@
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-22 01:43:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
     },
     "done": true
   },
@@ -2098,6 +2123,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-22 01:43:45 +0000"
@@ -2242,6 +2273,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-07-22 04:36:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2025-07-22 04:09:39 +0000"
@@ -2302,9 +2339,21 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-07-22 04:36:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-07-22 04:09:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
     },
     "done": true
   },
@@ -2329,6 +2378,18 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2025-07-22 01:43:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-22 04:36:40 +0000"
     },
     "done": true
   },
@@ -2374,6 +2435,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-22 04:42:12 +0000"
+    },
+    "done": true
+  },
   "caverns_and_chasms:recipes/building_blocks/cut_amethyst_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-07-22 03:45:12 +0000"
@@ -2383,6 +2450,12 @@
   "caverns_and_chasms:recipes/building_blocks/cut_amethyst_brick_slab_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-07-22 03:45:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-07-22 04:37:16 +0000"
     },
     "done": true
   },
