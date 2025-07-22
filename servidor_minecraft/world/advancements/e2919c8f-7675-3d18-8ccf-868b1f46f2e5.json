@@ -1505,6 +1505,12 @@
     },
     "done": true
   },
+  "caverns_and_chasms:recipes/building_blocks/raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-22 01:52:43 +0000"
@@ -1535,6 +1541,12 @@
     },
     "done": true
   },
+  "caverns_and_chasms:recipes/misc/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-07-22 01:52:43 +0000"
@@ -1562,6 +1574,12 @@
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2025-07-22 02:03:06 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
     },
     "done": true
   },
