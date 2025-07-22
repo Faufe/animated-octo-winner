@@ -2443,3 +2443,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [22Jul2025 03:27:28.126] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [22Jul2025 03:32:28.118] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [22Jul2025 03:32:28.126] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jul2025 03:36:26.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pocholita lost connection: Disconnected
+[22Jul2025 03:36:26.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita left the game
+[22Jul2025 03:37:28.111] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jul2025 03:37:28.117] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jul2025 03:42:28.114] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jul2025 03:42:28.122] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

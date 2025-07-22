@@ -23,6 +23,7 @@
       "minecraft:sparse_jungle": "2025-07-21 08:20:03 +0000",
       "minecraft:river": "2025-07-21 07:05:41 +0000",
       "minecraft:stony_shore": "2025-07-21 07:05:23 +0000",
+      "minecraft:dripstone_caves": "2025-07-22 03:37:58 +0000",
       "minecraft:grove": "2025-07-21 06:45:20 +0000",
       "minecraft:jagged_peaks": "2025-07-21 07:13:32 +0000",
       "minecraft:forest": "2025-07-21 07:03:06 +0000",
@@ -1748,6 +1749,12 @@
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2025-07-22 02:08:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-07-22 03:40:12 +0000"
     },
     "done": true
   },
