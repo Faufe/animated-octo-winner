@@ -2088,6 +2088,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-07-22 04:52:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-07-22 03:47:49 +0000"
@@ -2388,6 +2394,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-22 04:53:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-07-22 04:09:09 +0000"
@@ -2565,6 +2577,12 @@
   "caverns_and_chasms:recipes/building_blocks/polished_calcite_slab_from_calcite_stonecutting": {
     "criteria": {
       "has_calcite": "2025-07-22 03:45:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-07-22 04:53:30 +0000"
     },
     "done": true
   },

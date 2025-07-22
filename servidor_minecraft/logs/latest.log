@@ -391,3 +391,7 @@
 [22Jul2025 04:41:53.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
 [22Jul2025 04:47:34.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Hidden in the Depths]
 [22Jul2025 04:47:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Who is Cutting Onions?]
+[22Jul2025 04:59:50.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Gamerule keepInventory is now set to: true]
+[22Jul2025 05:01:37.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Piglin Brute
+[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Faufe lost connection: Disconnected
+[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe left the game

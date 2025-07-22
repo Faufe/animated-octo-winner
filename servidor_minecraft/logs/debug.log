@@ -2505,3 +2505,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [22Jul2025 04:47:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Who is Cutting Onions?]
 [22Jul2025 04:52:30.561] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [22Jul2025 04:52:30.568] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jul2025 04:57:30.557] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jul2025 04:57:30.564] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Jul2025 04:59:50.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Gamerule keepInventory is now set to: true]
+[22Jul2025 05:01:37.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Piglin Brute
+[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Faufe lost connection: Disconnected
+[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe left the game
+[22Jul2025 05:02:30.545] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Jul2025 05:02:30.552] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
