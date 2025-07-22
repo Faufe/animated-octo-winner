@@ -1494,39 +1494,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
+  "usefulbackpacks:recipes/backpack_small": {
     "criteria": {
-      "has_melon": "2025-07-22 02:03:06 +0000"
+      "has_leather": "2025-07-22 01:46:42 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "usefulbackpacks:recipes/filter_configurator": {
     "criteria": {
-      "has_planks": "2025-07-22 01:52:43 +0000"
-    },
-    "done": true
-  },
-  "caverns_and_chasms:recipes/building_blocks/raw_silver_block": {
-    "criteria": {
-      "has_raw_silver": "2025-07-22 03:09:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-07-22 01:52:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-07-22 01:58:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2025-07-22 01:52:43 +0000"
+      "has_leather": "2025-07-22 01:46:42 +0000"
     },
     "done": true
   },
@@ -1536,15 +1512,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-07-22 01:52:43 +0000"
     },
     "done": true
   },
-  "caverns_and_chasms:recipes/misc/silver_ingot_from_smelting_raw_silver": {
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
-      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+      "has_planks": "2025-07-22 01:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-07-22 01:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-22 01:52:43 +0000"
     },
     "done": true
   },
@@ -1572,27 +1560,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
+  "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
-      "has_melon": "2025-07-22 02:03:06 +0000"
+      "has_planks": "2025-07-22 01:52:43 +0000"
     },
     "done": true
   },
-  "caverns_and_chasms:recipes/misc/silver_ingot_from_blasting_raw_silver": {
+  "minecraft:recipes/building_blocks/glass": {
     "criteria": {
-      "has_raw_silver": "2025-07-22 03:09:34 +0000"
-    },
-    "done": true
-  },
-  "usefulbackpacks:recipes/backpack_small": {
-    "criteria": {
-      "has_leather": "2025-07-22 01:46:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2025-07-22 02:03:06 +0000"
+      "has_smelts_to_glass": "2025-07-22 01:58:59 +0000"
     },
     "done": true
   },
@@ -1602,9 +1578,21 @@
     },
     "done": true
   },
-  "usefulbackpacks:recipes/filter_configurator": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "has_leather": "2025-07-22 01:46:42 +0000"
+      "has_melon": "2025-07-22 02:03:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-07-22 02:03:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-07-22 02:03:06 +0000"
     },
     "done": true
   },
@@ -1614,27 +1602,39 @@
     },
     "done": true
   },
-  "caverns_and_chasms:recipes/misc/bejeweled_pearl": {
-    "criteria": {
-      "has_ender_pearl": "2025-07-22 03:35:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
       "has_bamboo": "2025-07-22 02:40:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_sign": {
-    "criteria": {
-      "has_planks": "2025-07-22 01:52:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-07-22 02:40:30 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-22 03:09:34 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/bejeweled_pearl": {
+    "criteria": {
+      "has_ender_pearl": "2025-07-22 03:35:10 +0000"
     },
     "done": true
   },
