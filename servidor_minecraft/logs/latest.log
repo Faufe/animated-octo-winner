@@ -366,3 +366,8 @@
 [22Jul2025 03:36:26.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita left the game
 [22Jul2025 03:55:37.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Mime
 [22Jul2025 03:55:42.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 1013.500000, -40.500000, -1223.500000]
+[22Jul2025 04:06:57.316] [Worker-Main-2/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[22Jul2025 04:06:58.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [We Need to Go Deeper]
+[22Jul2025 04:06:59.715] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2473ms or 49 ticks behind
+[22Jul2025 04:11:28.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Nightmare Fuel]
+[22Jul2025 04:16:28.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has completed the challenge [Hot Tourist Destinations]
