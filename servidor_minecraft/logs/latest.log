@@ -371,3 +371,5 @@
 [22Jul2025 04:06:59.715] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2473ms or 49 ticks behind
 [22Jul2025 04:11:28.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Nightmare Fuel]
 [22Jul2025 04:16:28.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has completed the challenge [Hot Tourist Destinations]
+[22Jul2025 04:27:57.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Spectator Mode]
+[22Jul2025 04:28:16.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
