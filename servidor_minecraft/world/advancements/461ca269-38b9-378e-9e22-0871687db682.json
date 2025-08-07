@@ -2678,9 +2678,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-08-07 14:21:43 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
     },
     "done": true
   },
@@ -2726,6 +2738,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-08-07 14:21:43 +0000"
@@ -2762,6 +2786,12 @@
     },
     "done": true
   },
+  "caverns_and_chasms:recipes/building_blocks/calcite": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
+    },
+    "done": true
+  },
   "caverns_and_chasms:recipes/building_blocks/spinel_lamp": {
     "criteria": {
       "has_glowstone": "2025-08-07 14:34:34 +0000"
@@ -2795,6 +2825,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_magenta_dye": "2025-08-07 14:55:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-07 15:10:37 +0000"
     },
     "done": true
   },
