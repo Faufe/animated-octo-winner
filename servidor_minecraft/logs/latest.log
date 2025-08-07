@@ -185,3 +185,4 @@
 [07Aug2025 13:52:48.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe joined the game
 [07Aug2025 13:52:50.296] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
 [07Aug2025 14:18:43.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
+[07Aug2025 14:44:47.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
