@@ -1,401 +1,186 @@
-[22Jul2025 01:41:51.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[22Jul2025 01:41:51.217] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[22Jul2025 01:41:53.667] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[22Jul2025 01:41:53.752] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[22Jul2025 01:41:54.245] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[22Jul2025 01:41:54.247] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Jul2025 01:41:54.248] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Jul2025 01:41:54.249] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[22Jul2025 01:41:54.549] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
-[22Jul2025 01:41:56.592] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Jul2025 01:41:56.741] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[22Jul2025 01:41:57.439] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[22Jul2025 01:41:57.439] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[22Jul2025 01:41:58.109] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22Jul2025 01:42:05.110] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
-[22Jul2025 01:42:05.551] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[22Jul2025 01:42:05.819] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[22Jul2025 01:42:05.820] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[22Jul2025 01:42:08.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[22Jul2025 01:42:08.535] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22Jul2025 01:42:08.537] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22Jul2025 01:42:08.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 2.0.1.124 Target: null
-[22Jul2025 01:42:08.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[22Jul2025 01:42:08.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.382 Target: null
-[22Jul2025 01:42:08.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Jul2025 01:42:08.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[22Jul2025 01:42:10.942] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Jul2025 01:42:12.314] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
-[22Jul2025 01:42:12.315] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
-[22Jul2025 01:42:12.432] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
-[22Jul2025 01:42:13.536] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[22Jul2025 01:42:14.370] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 25 modifier groups
-[22Jul2025 01:42:14.411] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_furnace_boat as it's serializer returned null
-[22Jul2025 01:42:14.412] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_planks_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.415] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.416] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.418] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_door_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.418] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_river_chest as it's serializer returned null
-[22Jul2025 01:42:14.420] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.424] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards as it's serializer returned null
-[22Jul2025 01:42:14.426] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.427] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.428] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:large_azalea_boat as it's serializer returned null
-[22Jul2025 01:42:14.428] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_gate_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.429] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.430] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:golden_milk_bucket as it's serializer returned null
-[22Jul2025 01:42:14.432] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder as it's serializer returned null
-[22Jul2025 01:42:14.432] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.433] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_sign_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.433] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder as it's serializer returned null
-[22Jul2025 01:42:14.433] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_door_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.434] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_pressure_plate_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.434] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.436] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.436] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.437] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_slab_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.437] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_river_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.438] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:trapped_poise_chest as it's serializer returned null
-[22Jul2025 01:42:14.439] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.441] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_driftwood_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.442] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_beehive as it's serializer returned null
-[22Jul2025 01:42:14.443] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:chiseled_azalea_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.444] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.444] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_beehive as it's serializer returned null
-[22Jul2025 01:42:14.446] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards as it's serializer returned null
-[22Jul2025 01:42:14.447] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_purpur_block_from_baking as it's serializer returned null
-[22Jul2025 01:42:14.447] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_eumus_bricks_from_baking as it's serializer returned null
-[22Jul2025 01:42:14.449] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.450] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards as it's serializer returned null
-[22Jul2025 01:42:14.451] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.451] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.453] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.453] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards as it's serializer returned null
-[22Jul2025 01:42:14.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_chest as it's serializer returned null
-[22Jul2025 01:42:14.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_sign_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_sign_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.456] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_door_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.457] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.457] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_chest as it's serializer returned null
-[22Jul2025 01:42:14.458] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.460] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.460] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_planks_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_trapdoor_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.462] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_river_boat as it's serializer returned null
-[22Jul2025 01:42:14.462] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_button_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.462] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_gate_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.462] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.463] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder as it's serializer returned null
-[22Jul2025 01:42:14.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_gate_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_planks_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.465] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_furnace_boat as it's serializer returned null
-[22Jul2025 01:42:14.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_button_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.467] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_beehive as it's serializer returned null
-[22Jul2025 01:42:14.467] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.468] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_pressure_plate_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.468] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_trapdoor_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_trapdoor_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.471] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_sign_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.472] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_furnace_boat as it's serializer returned null
-[22Jul2025 01:42:14.472] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.472] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.473] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaf_pile as it's serializer returned null
-[22Jul2025 01:42:14.474] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_furnace_boat as it's serializer returned null
-[22Jul2025 01:42:14.475] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:chiseled_poise_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.475] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.475] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.476] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_planks_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.477] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_stairs_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.477] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:eumus_brick_from_baking as it's serializer returned null
-[22Jul2025 01:42:14.477] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.478] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_pressure_plate_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.478] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.478] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_gate_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.478] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_pressure_plate_from_river_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.479] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_driftwood_chest as it's serializer returned null
-[22Jul2025 01:42:14.479] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.480] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.481] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.481] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_trapdoor_from_azalea_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.481] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_slab_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.482] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.483] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_stairs_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.483] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_beehive as it's serializer returned null
-[22Jul2025 01:42:14.483] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:large_poise_boat as it's serializer returned null
-[22Jul2025 01:42:14.484] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_driftwood_boat as it's serializer returned null
-[22Jul2025 01:42:14.485] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.486] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:trapped_azalea_chest as it's serializer returned null
-[22Jul2025 01:42:14.487] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_door_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.487] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.487] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_chest as it's serializer returned null
-[22Jul2025 01:42:14.489] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_from_azalea_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.489] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.490] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder as it's serializer returned null
-[22Jul2025 01:42:14.490] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_end_stone_bricks_from_baking as it's serializer returned null
-[22Jul2025 01:42:14.491] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_planks_sawing as it's serializer returned null
-[22Jul2025 01:42:14.491] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_bookshelf as it's serializer returned null
-[22Jul2025 01:42:14.491] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaves_from_leaf_piles as it's serializer returned null
-[22Jul2025 01:42:14.493] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.493] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_logs_sawing as it's serializer returned null
-[22Jul2025 01:42:14.494] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_stems_sawing as it's serializer returned null
-[22Jul2025 01:42:14.494] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_chest as it's serializer returned null
-[22Jul2025 01:42:14.497] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Jul2025 01:42:14.517] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 23 modifier groups
-[22Jul2025 01:42:14.641] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2384 advancements
-[22Jul2025 01:42:14.650] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[22Jul2025 01:42:14.654] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[22Jul2025 01:42:14.659] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
-[22Jul2025 01:42:15.946] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[22Jul2025 01:42:15.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Jul2025 01:42:15.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[22Jul2025 01:42:15.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Jul2025 01:42:16.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[22Jul2025 01:42:16.180] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Jul2025 01:42:16.262] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Jul2025 01:42:16.262] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Jul2025 01:42:16.262] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Jul2025 01:42:16.263] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Jul2025 01:42:16.390] [Server thread/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[22Jul2025 01:42:16.421] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[22Jul2025 01:42:19.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Jul2025 01:42:20.351] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:20.406] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:20.445] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:20.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:21.284] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:21.778] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:22.410] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:22.785] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:23.284] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:23.780] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jul2025 01:42:24.279] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jul2025 01:42:24.780] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[22Jul2025 01:42:25.280] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[22Jul2025 01:42:25.658] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6380 ms
-[22Jul2025 01:42:25.658] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.383s)! For help, type "help"
-[22Jul2025 01:42:25.689] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[22Jul2025 01:42:53.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Faufe[/127.122.40.227:34847] logged in with entity id 59 at (811.7417607776797, 73.0, -1080.5834933691788)
-[22Jul2025 01:42:53.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe joined the game
-[22Jul2025 01:42:56.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2496ms or 49 ticks behind
-[22Jul2025 01:44:21.376] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [uteamcore:network,uteamcore:network_forge,usefulbackpacks:slot_mod] rejected their client side version number
-[22Jul2025 01:44:21.376] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[22Jul2025 01:44:21.409] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e4bd69d[id=<null>,name=pocholita,properties={},legacy=false] (/127.122.40.227:52583) lost connection: Connection closed - mismatched mod channel list
-[22Jul2025 01:46:42.111] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'sophisticatedbackpacks:recipes/misc/backpack' in progress file ./world/advancements/e2919c8f-7675-3d18-8ccf-868b1f46f2e5.json - it doesn't exist anymore?
-[22Jul2025 01:46:42.111] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'sophisticatedbackpacks:recipes/misc/upgrade_base' in progress file ./world/advancements/e2919c8f-7675-3d18-8ccf-868b1f46f2e5.json - it doesn't exist anymore?
-[22Jul2025 01:46:42.120] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: sophisticatedbackpacks:upgrade_base removed now.
-[22Jul2025 01:46:42.120] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: sophisticatedbackpacks:backpack removed now.
-[22Jul2025 01:46:42.121] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: sophisticatedbackpacks:upgrade_base removed now.
-[22Jul2025 01:46:42.121] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: sophisticatedbackpacks:backpack removed now.
-[22Jul2025 01:46:42.122] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pocholita[/127.122.40.227:43075] logged in with entity id 827 at (479.0426256947514, 69.0, -1282.7777235662434)
-[22Jul2025 01:46:42.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita joined the game
-[22Jul2025 01:46:58.571] [Worker-Main-1/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[22Jul2025 01:47:40.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported pocholita to Faufe]
-[22Jul2025 01:47:53.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita has made the advancement [Sweet Dreams]
-[22Jul2025 02:04:03.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Chompy]
-[22Jul2025 02:14:37.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Best Friends Forever]
-[22Jul2025 02:16:45.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Rigged from the Start]
-[22Jul2025 02:17:40.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5193631769316198
-[22Jul2025 02:17:40.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.0770646337696235
-[22Jul2025 02:17:40.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.6361325352602307
-[22Jul2025 02:17:40.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.71926955846493
-[22Jul2025 02:18:59.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4658348521913922
-[22Jul2025 02:18:59.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.0716706776397587
-[22Jul2025 02:19:03.267] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5428323054545672
-[22Jul2025 02:19:05.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3270356555078706
-[22Jul2025 02:19:05.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.48401261389562933
-[22Jul2025 02:19:05.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.31563705772714457
-[22Jul2025 02:19:05.571] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.7544575382546554
-[22Jul2025 02:19:05.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2794367581568622
-[22Jul2025 02:19:05.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9466363545884633
-[22Jul2025 02:19:24.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3163863204483732
-[22Jul2025 02:19:24.380] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9426361750990964
-[22Jul2025 02:19:24.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5732652417477766
-[22Jul2025 02:19:24.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.1856744880237784
-[22Jul2025 02:19:24.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5397897588452452
-[22Jul2025 02:19:24.583] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5159944716101563
-[22Jul2025 02:19:24.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5032620878373564
-[22Jul2025 02:19:24.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.49644924313702177
-[22Jul2025 02:19:24.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4928038257712615
-[22Jul2025 02:19:24.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4908532356205342
-[22Jul2025 02:19:24.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4898095137216387
-[22Jul2025 02:19:24.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.489251038942939
-[22Jul2025 02:19:24.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.48895221022371516
-[22Jul2025 02:19:24.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4887923129340379
-[22Jul2025 02:19:25.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.49005280781375404
-[22Jul2025 02:19:25.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.49456727847450566
-[22Jul2025 02:19:25.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5068204334384063
-[22Jul2025 02:19:25.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5275949100823709
-[22Jul2025 02:19:25.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5545941314524043
-[22Jul2025 02:19:25.267] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5756761244510926
-[22Jul2025 02:19:25.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5938884561874147
-[22Jul2025 02:19:25.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5695704921777178
-[22Jul2025 02:19:25.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5811969428373231
-[22Jul2025 02:19:25.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3354720411762173
-[22Jul2025 02:19:58.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Eye of The Storm]
-[22Jul2025 02:22:03.915] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3232786367445897
-[22Jul2025 02:22:03.970] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.7945979396454774
-[22Jul2025 02:22:04.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.3044275123746494
-[22Jul2025 02:22:04.061] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.7050873719660151
-[22Jul2025 02:22:38.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2637352210499557
-[22Jul2025 02:22:38.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9273215521238853
-[22Jul2025 02:22:38.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5956019364068652
-[22Jul2025 02:22:38.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2660667905133778
-[22Jul2025 02:22:38.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2845544050260287
-[22Jul2025 02:22:38.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.949640711099164
-[22Jul2025 02:22:38.917] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.6142597749567358
-[22Jul2025 02:22:38.968] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.2786288268205226
-[22Jul2025 02:22:48.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2733195578998675
-[22Jul2025 02:22:48.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9287067409870815
-[22Jul2025 02:22:48.225] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5854460205232499
-[22Jul2025 02:22:48.571] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.25235275126669876
-[22Jul2025 02:22:48.669] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5425247633036179
-[22Jul2025 02:22:48.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.1766422074929324
-[22Jul2025 02:25:25.610] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.28512637366748095
-[22Jul2025 02:25:25.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5499571882171495
-[22Jul2025 02:25:25.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.786979911555818
-[22Jul2025 02:25:25.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9806496086673633
-[22Jul2025 02:25:27.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4712929532333874
-[22Jul2025 02:25:28.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2686670547345784
-[22Jul2025 02:25:28.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9336817902747043
-[22Jul2025 02:25:28.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5982929355602664
-[22Jul2025 02:25:28.411] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.262688127747424
-[22Jul2025 02:27:10.363] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2801877076663004
-[22Jul2025 02:27:10.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.7256545140633205
-[22Jul2025 02:27:10.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2914135811236065
-[22Jul2025 02:27:10.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.531790197701639
-[22Jul2025 02:27:29.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.29658379564716597
-[22Jul2025 02:27:29.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.941925534463735
-[22Jul2025 02:27:29.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5737880640235744
-[22Jul2025 02:27:29.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.1856984337598533
-[22Jul2025 02:27:35.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.48162384476972875
-[22Jul2025 02:27:35.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.069150566078406
-[22Jul2025 02:29:45.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.25906368772120913
-[22Jul2025 02:29:45.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9163952760850407
-[22Jul2025 02:29:45.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5734676621609651
-[22Jul2025 02:29:45.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.230401354260721
-[22Jul2025 02:29:56.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4807096708482277
-[22Jul2025 02:29:56.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.1399969395033622
-[22Jul2025 02:29:56.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.7982492299970545
-[22Jul2025 02:29:56.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4526426751217514
-[22Jul2025 02:29:57.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2748984632266911
-[22Jul2025 02:29:57.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9076194384515475
-[22Jul2025 02:29:57.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5582980816616328
-[22Jul2025 02:29:57.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.2189571572680507
-[22Jul2025 02:29:57.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4262636258431485
-[22Jul2025 02:29:57.809] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9899252183786302
-[22Jul2025 02:29:57.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5591208807741168
-[22Jul2025 02:29:57.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.35561741986111883
-[22Jul2025 02:31:11.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5132867727650137
-[22Jul2025 02:31:11.205] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.1795207719396785
-[22Jul2025 02:31:11.286] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.847874562510924
-[22Jul2025 02:31:11.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.517362611194585
-[22Jul2025 02:31:11.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 3.1874575787794583
-[22Jul2025 02:31:33.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3063647495409896
-[22Jul2025 02:31:33.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.7723352721739047
-[22Jul2025 02:31:33.132] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.322930732418854
-[22Jul2025 02:31:33.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.9188073095408527
-[22Jul2025 02:31:33.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5285826215638281
-[22Jul2025 02:31:33.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.1772338180126098
-[22Jul2025 02:31:33.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.8260020784487097
-[22Jul2025 02:31:33.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.4748329774904505
-[22Jul2025 02:33:20.759] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/27492, l='ServerLevel[world]', x=3458.70, y=60.00, z=-1873.84] died, message: 'Villager was slain by Zombie'
-[22Jul2025 02:35:45.619] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 2 bison_fur because there is no smelting recipe
-[22Jul2025 02:47:55.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Masquerade]
-[22Jul2025 02:54:09.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.35455331565117376
-[22Jul2025 02:54:09.237] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.8974159699970828
-[22Jul2025 02:54:09.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5399479409472177
-[22Jul2025 02:54:09.333] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.2006951021549366
-[22Jul2025 03:00:01.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3188569556739367
-[22Jul2025 03:00:01.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9559097335061324
-[22Jul2025 03:00:01.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5931360951792612
-[22Jul2025 03:00:14.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2820882861426526
-[22Jul2025 03:00:14.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9299837821226902
-[22Jul2025 03:00:14.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.580133040314422
-[22Jul2025 03:00:17.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.27916147868359076
-[22Jul2025 03:00:17.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9459415184251156
-[22Jul2025 03:00:17.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.6156136129720835
-[22Jul2025 03:00:17.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.2866590644935059
-[22Jul2025 03:02:15.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.27858530483638333
-[22Jul2025 03:02:15.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.7067423480111756
-[22Jul2025 03:02:32.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.6222014843660872
-[22Jul2025 03:02:32.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.0
-[22Jul2025 03:02:32.585] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.0
-[22Jul2025 03:02:32.634] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2986446533668641
-[22Jul2025 03:02:32.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.258395366271543
-[22Jul2025 03:02:32.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5605122872384527
-[22Jul2025 03:02:33.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.2053354323688836
-[22Jul2025 03:02:34.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.43581096425918986
-[22Jul2025 03:02:34.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9928778133337346
-[22Jul2025 03:02:34.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5513727265081343
-[22Jul2025 03:02:34.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.5134290341302403
-[22Jul2025 03:03:41.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3334024925607082
-[22Jul2025 03:03:41.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.0070514309800274
-[22Jul2025 03:03:41.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.680710981356242
-[22Jul2025 03:03:41.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.35437620997981867
-[22Jul2025 03:05:20.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.300149307154129
-[22Jul2025 03:05:20.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9674174647375366
-[22Jul2025 03:05:20.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.6346856152546252
-[22Jul2025 03:05:20.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3019537619906032
-[22Jul2025 03:07:07.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.4075101826858827
-[22Jul2025 03:07:07.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.30394259419199443
-[22Jul2025 03:07:07.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.6889180523976393
-[22Jul2025 03:07:08.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.32055505688185804
-[22Jul2025 03:07:08.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3293624809221001
-[22Jul2025 03:08:32.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.3109163068270391
-[22Jul2025 03:08:32.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.77391774521152
-[22Jul2025 03:08:32.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.2716905494696675
-[22Jul2025 03:08:32.375] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.738769700129751
-[22Jul2025 03:09:13.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.26516822528446937
-[22Jul2025 03:09:13.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.8783561827412996
-[22Jul2025 03:09:13.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.463820499175199
-[22Jul2025 03:09:14.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.2565461652613976
-[22Jul2025 03:09:14.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 0.9168201778438743
-[22Jul2025 03:09:14.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 1.5747129388114445
-[22Jul2025 03:09:14.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Faufe) moved wrongly! 2.228092472937533
-[22Jul2025 03:13:11.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to pocholita]
-[22Jul2025 03:15:25.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Faufe> zzz
-[22Jul2025 03:15:29.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Faufe> holas
-[22Jul2025 03:15:35.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Faufe> me gusta el pene
-[22Jul2025 03:36:26.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pocholita lost connection: Disconnected
-[22Jul2025 03:36:26.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita left the game
-[22Jul2025 03:55:37.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Mime
-[22Jul2025 03:55:42.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 1013.500000, -40.500000, -1223.500000]
-[22Jul2025 04:06:57.316] [Worker-Main-2/INFO] [citadel/]: vanilla surface rule behavior unchanged
-[22Jul2025 04:06:58.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [We Need to Go Deeper]
-[22Jul2025 04:06:59.715] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2473ms or 49 ticks behind
-[22Jul2025 04:11:28.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Nightmare Fuel]
-[22Jul2025 04:16:28.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has completed the challenge [Hot Tourist Destinations]
-[22Jul2025 04:27:57.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Spectator Mode]
-[22Jul2025 04:28:16.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:36:33.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [War Pigs]
-[22Jul2025 04:36:41.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was doomed to fall by Piglin
-[22Jul2025 04:37:12.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 770.500000, 52.500000, -1203.500000]
-[22Jul2025 04:37:16.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Those Were the Days]
-[22Jul2025 04:39:25.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was doomed to fall by Piglin
-[22Jul2025 04:39:36.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
-[22Jul2025 04:39:48.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Teleported Faufe to 770.500000, 49.500000, -1204.500000]
-[22Jul2025 04:40:11.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:40:43.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
-[22Jul2025 04:40:57.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:40:59.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
-[22Jul2025 04:41:14.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:41:29.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
-[22Jul2025 04:41:36.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:41:47.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
-[22Jul2025 04:41:53.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
-[22Jul2025 04:47:34.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Hidden in the Depths]
-[22Jul2025 04:47:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [Who is Cutting Onions?]
-[22Jul2025 04:59:50.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Gamerule keepInventory is now set to: true]
-[22Jul2025 05:01:37.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe was slain by Piglin Brute
-[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Faufe lost connection: Disconnected
-[22Jul2025 05:01:43.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe left the game
-[22Jul2025 05:56:24.505] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pocholita[/127.122.40.227:46681] logged in with entity id 82317 at (865.1990486410779, 73.0, -1129.8310944387806)
-[22Jul2025 05:56:24.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita joined the game
-[22Jul2025 06:08:29.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pocholita lost connection: Disconnected
-[22Jul2025 06:08:29.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pocholita left the game
+[07Aug2025 13:47:02.113] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Aug2025 13:47:02.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[07Aug2025 13:47:04.332] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Aug2025 13:47:04.407] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Aug2025 13:47:04.888] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Aug2025 13:47:04.890] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Aug2025 13:47:04.891] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Aug2025 13:47:04.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Aug2025 13:47:05.155] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[07Aug2025 13:47:07.012] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Aug2025 13:47:07.145] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Aug2025 13:47:07.824] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[07Aug2025 13:47:07.825] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[07Aug2025 13:47:08.428] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07Aug2025 13:47:15.735] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[07Aug2025 13:47:16.088] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[07Aug2025 13:47:16.448] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Aug2025 13:47:16.449] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Aug2025 13:47:19.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[07Aug2025 13:47:19.338] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[07Aug2025 13:47:19.343] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[07Aug2025 13:47:19.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 2.0.1.124 Target: null
+[07Aug2025 13:47:19.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[07Aug2025 13:47:19.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.382 Target: null
+[07Aug2025 13:47:19.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Aug2025 13:47:19.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[07Aug2025 13:47:21.508] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Aug2025 13:47:22.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
+[07Aug2025 13:47:22.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/animated-octo-winner/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
+[07Aug2025 13:47:23.048] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[07Aug2025 13:47:24.222] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Aug2025 13:47:25.002] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 25 modifier groups
+[07Aug2025 13:47:25.037] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_furnace_boat as it's serializer returned null
+[07Aug2025 13:47:25.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_planks_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_door_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_river_chest as it's serializer returned null
+[07Aug2025 13:47:25.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards as it's serializer returned null
+[07Aug2025 13:47:25.051] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:large_azalea_boat as it's serializer returned null
+[07Aug2025 13:47:25.054] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_gate_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.056] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:golden_milk_bucket as it's serializer returned null
+[07Aug2025 13:47:25.059] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder as it's serializer returned null
+[07Aug2025 13:47:25.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_sign_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.061] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder as it's serializer returned null
+[07Aug2025 13:47:25.061] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_door_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.061] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_pressure_plate_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_slab_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_river_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.065] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:trapped_poise_chest as it's serializer returned null
+[07Aug2025 13:47:25.066] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.067] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_driftwood_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.069] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_beehive as it's serializer returned null
+[07Aug2025 13:47:25.070] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:chiseled_azalea_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_beehive as it's serializer returned null
+[07Aug2025 13:47:25.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards as it's serializer returned null
+[07Aug2025 13:47:25.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_purpur_block_from_baking as it's serializer returned null
+[07Aug2025 13:47:25.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_eumus_bricks_from_baking as it's serializer returned null
+[07Aug2025 13:47:25.076] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards as it's serializer returned null
+[07Aug2025 13:47:25.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.082] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards as it's serializer returned null
+[07Aug2025 13:47:25.082] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_chest as it's serializer returned null
+[07Aug2025 13:47:25.084] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_sign_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.084] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_sign_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_door_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.086] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_chest as it's serializer returned null
+[07Aug2025 13:47:25.086] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.089] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.090] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_planks_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.091] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_trapdoor_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_river_boat as it's serializer returned null
+[07Aug2025 13:47:25.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_button_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_gate_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_button_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.094] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder as it's serializer returned null
+[07Aug2025 13:47:25.095] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.095] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_gate_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_planks_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_furnace_boat as it's serializer returned null
+[07Aug2025 13:47:25.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_button_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_beehive as it's serializer returned null
+[07Aug2025 13:47:25.099] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_boards_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_pressure_plate_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_boards_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_trapdoor_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_trapdoor_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_sign_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.103] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_furnace_boat as it's serializer returned null
+[07Aug2025 13:47:25.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_slab_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.105] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaf_pile as it's serializer returned null
+[07Aug2025 13:47:25.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_furnace_boat as it's serializer returned null
+[07Aug2025 13:47:25.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:chiseled_poise_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_ladder_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_planks_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.109] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_stairs_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.109] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:eumus_brick_from_baking as it's serializer returned null
+[07Aug2025 13:47:25.109] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_pressure_plate_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_gate_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_pressure_plate_from_river_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.111] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_driftwood_chest as it's serializer returned null
+[07Aug2025 13:47:25.111] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_trapdoor_from_azalea_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_slab_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_fence_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_stairs_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_beehive as it's serializer returned null
+[07Aug2025 13:47:25.115] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:large_poise_boat as it's serializer returned null
+[07Aug2025 13:47:25.115] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_driftwood_boat as it's serializer returned null
+[07Aug2025 13:47:25.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:trapped_azalea_chest as it's serializer returned null
+[07Aug2025 13:47:25.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_door_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_stairs_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_chest as it's serializer returned null
+[07Aug2025 13:47:25.120] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caverns_and_chasms:azalea_fence_from_azalea_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.120] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder as it's serializer returned null
+[07Aug2025 13:47:25.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:cracked_end_stone_bricks_from_baking as it's serializer returned null
+[07Aug2025 13:47:25.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_planks_sawing as it's serializer returned null
+[07Aug2025 13:47:25.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_bookshelf as it's serializer returned null
+[07Aug2025 13:47:25.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaves_from_leaf_piles as it's serializer returned null
+[07Aug2025 13:47:25.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_logs_sawing as it's serializer returned null
+[07Aug2025 13:47:25.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_ladder_from_poise_stems_sawing as it's serializer returned null
+[07Aug2025 13:47:25.125] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe endergetic:poise_chest as it's serializer returned null
+[07Aug2025 13:47:25.127] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[07Aug2025 13:47:25.144] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 23 modifier groups
+[07Aug2025 13:47:25.266] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2384 advancements
+[07Aug2025 13:47:25.275] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[07Aug2025 13:47:25.281] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[07Aug2025 13:47:25.287] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[07Aug2025 13:47:26.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Aug2025 13:47:26.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Aug2025 13:47:26.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Aug2025 13:47:26.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Aug2025 13:47:26.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Aug2025 13:47:26.682] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Aug2025 13:47:26.764] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Aug2025 13:47:26.764] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Aug2025 13:47:26.764] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Aug2025 13:47:26.765] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Aug2025 13:47:26.875] [Server thread/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[07Aug2025 13:47:26.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Aug2025 13:47:29.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Aug2025 13:47:32.938] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:32.989] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:32.996] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:32.998] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:32.999] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:33.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:33.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:33.304] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:33.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:34.300] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:34.804] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:35.300] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2025 13:47:35.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[07Aug2025 13:47:36.293] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6494 ms
+[07Aug2025 13:47:36.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.515s)! For help, type "help"
+[07Aug2025 13:47:36.326] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Aug2025 13:52:43.483] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@68097088[id=<null>,name=Faufe,properties={},legacy=false] (/127.128.158.51:48145) lost connection: Disconnected
+[07Aug2025 13:52:48.159] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Faufe[/127.128.158.51:37239] logged in with entity id 61 at (810.5, 69.0, -1078.5)
+[07Aug2025 13:52:48.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe joined the game
+[07Aug2025 13:52:50.296] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
