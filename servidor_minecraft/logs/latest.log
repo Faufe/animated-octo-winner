@@ -186,3 +186,6 @@
 [07Aug2025 13:52:50.296] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
 [07Aug2025 14:18:43.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
 [07Aug2025 14:44:47.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Survival Mode]
+[07Aug2025 14:51:47.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [We do a little trolling...]
+[07Aug2025 14:53:36.806] [Worker-Main-66/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[07Aug2025 14:53:39.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe has made the advancement [It's an Emu!!!]
