@@ -2180,3 +2180,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [07Aug2025 13:52:50.924] [Server thread/DEBUG] [mixin/]: Mixing common.WorkAtPoiMixin from subtle_effects.mixins.json into net.minecraft.world.entity.ai.behavior.WorkAtPoi
 [07Aug2025 13:52:50.925] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$spawnWorkEffects$0(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/Villager;Lnet/minecraft/core/GlobalPos;)V to md4e5697$lambda$spawnWorkEffects$0$0 in subtle_effects.mixins.json:common.WorkAtPoiMixin
 [07Aug2025 13:52:50.932] [Server thread/DEBUG] [mixin/]: Mixing common.WorkAtComposterMixin from subtle_effects.mixins.json into net.minecraft.world.entity.ai.behavior.WorkAtComposter
+[07Aug2025 13:57:38.552] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Aug2025 13:57:38.564] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Aug2025 14:02:38.518] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Aug2025 14:02:38.526] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
