@@ -184,3 +184,4 @@
 [07Aug2025 13:52:48.159] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Faufe[/127.128.158.51:37239] logged in with entity id 61 at (810.5, 69.0, -1078.5)
 [07Aug2025 13:52:48.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Faufe joined the game
 [07Aug2025 13:52:50.296] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
+[07Aug2025 14:18:43.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Faufe: Set own game mode to Creative Mode]
